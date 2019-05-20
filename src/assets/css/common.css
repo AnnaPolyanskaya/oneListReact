@@ -1,0 +1,35 @@
+body{
+    margin: 0 !important;
+    padding: 0 !important;
+    font-family: 'sf-ui';
+    font-weight: 400;
+}
+
+.container{
+    margin: auto;
+}
+
+.app-container{
+    display: flex;
+}
+
+.half{
+    width: 50%;
+    float: left;
+}
+
+@media screen and (min-width: 1800px){
+    .container{
+        width: 1660px;
+    }
+}
+@media screen and (min-width: 1300px) and (max-width: 1799px){
+    .container{
+        width: 98%;
+    }
+}
+@media screen and (min-width: 1000px) and (max-width: 1299px){
+    .container{
+        width: 900px;
+    }
+}

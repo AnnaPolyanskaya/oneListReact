@@ -1,0 +1,78 @@
+.executor-ttl{
+    font-size: 18px;
+    font-weight: 700;
+    color: #000000;
+    margin: 19px;
+}
+
+.executor{
+    display: flex;
+    flex-direction: row;
+    padding: 0 24px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.executor:after{
+    content: url(../img/del-red.png);
+    position: absolute;
+    right: 6px;
+    top: -5px;
+
+}
+
+.executor-data{
+    width: calc(100% - 172px);
+    margin: 0 26px;
+}
+
+.executor-data__name{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24.52px;
+}
+
+.executor-data__item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    margin: 10px 0px 10px 0px;
+}
+
+.executor-data__item p{
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0 0 0 10px;
+}
+
+.executor-person{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 10px;
+}
+
+.executor-person img{
+    margin-right: 7px;
+}
+
+.executor-person__title{
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.executor-person__name{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.executor-data__data{
+    border-bottom: 1px dashed #000000;
+}
+
+.executor-list{
+    margin-top: 23px;
+}

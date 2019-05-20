@@ -1,0 +1,123 @@
+.order-cntnr{
+    width: calc(100% - 310px);
+    margin-left: 50px;
+    background: #dddddd;
+    padding-bottom: 50px;
+}
+
+.order-title{
+    color: #293138;
+    font-size: 24px;
+    font-weight: 400;
+    background-color: #cccccc;
+    text-transform: uppercase;
+    padding: 17px 26px;
+
+}
+
+.order-details__container{
+    padding: 25px 0 25px 0;
+    max-width: 650px;
+    position: relative;
+    border-bottom: 1px dashed #d00000;
+    margin-left: 25px;
+}
+
+
+.order-detail{
+    padding: 13px 3px;
+    background-color: #cccccc;
+    max-width: 615px;
+    overflow: hidden;
+    height: 150px;
+}
+
+
+.order-detail__item{
+    display: flex;
+    align-content: center;
+    margin-bottom: 12px;
+}
+
+.grey{
+    font-weight: 300;   
+    font-size: 18px;
+    color: #878787;
+    margin-left: 14px;
+}
+
+.bold{
+    font-weight: 600; 
+    font-size: 18px;
+    color: #000; 
+    margin-left: 14px;
+
+}
+
+.order-detail .btn-red{
+    float: right;
+    position: relative;
+    top: -43px;
+    right: 25px;
+}
+
+.order-text{
+    max-width: 599px;
+    color: #000000;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 17px 8px;
+    line-height: 22px;
+}
+
+.btn-red{
+    width: 204px;
+    height: 39px;
+    background-color: #d60000;
+    background-image: linear-gradient(to top, #d00000 0%, #ff0000 100%);
+    color: #fff;
+    font-size: 18px;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.btn-white{
+    width: 170px;
+    height: 41px;
+    box-shadow: 0 3px 2px rgba(0, 0, 0, 0.18);
+    background-color: #ff0000;
+    background-image: linear-gradient(to top, #dfdfdf 0%, #ffffff 100%);
+    color: #000000;
+    font-size: 18px;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.order-btns{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.order-btns .btn-red{
+    height: 41px;
+    box-shadow: 0 3px 2px rgba(0, 0, 0, 0.18);
+    width: 139px;
+    margin-left: 30px;
+}
+
+.order-btns .btn-red,
+.order-btns .btn-white{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.order-edit textarea{
+    box-shadow: 0 3px 2px rgba(0, 0, 0, 0.18);
+    width: 100%;
+    padding: 5px;
+    border: none;
+    margin-bottom: 20px;
+}
